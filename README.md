@@ -68,7 +68,7 @@ To run this app on your local, run commands below on the terminal:
 
 1. Clone the repo on your local.
 
-    ```shell
+    ```bash
     $ git clone https://github.com/ehkarabas/blog-api-client.git
     ```
 
@@ -79,56 +79,60 @@ To run this app on your local, run commands below on the terminal:
 
 	2.2. Install python environment to this repo.
 
-	    ```shell
-	    $ python -m venv env
-	    ```
+	```bash
+	$ python -m venv env
+	```
 
 	2.3. Activate python environment.
 
-	    ```shell
-	    For powershell:
-	    $ .\env\Scripts\activate
-
-	    For git bash:
-	    $ source env/Scripts/activate
-
-	    For linux/mac:
-	    $ source env/bin/activate
-	    ```
+	For powershell:
+	```powershell
+	PS .\env\Scripts\activate
+	```
+	
+	For git bash:
+	```bash
+	$ source env/Scripts/activate
+	```
+	
+	For linux/mac:
+	```sh
+	$ source env/bin/activate
+	```
 
 	2.4. Install required packages to this sub-repo.
 
-	    ```shell
-	    $ python install -r requirements.txt
-	    ```
+	```bash
+	$ python install -r requirements.txt
+	```
 
 	2.5. Run the server on your browser.
 
-	    ```shell
-	    $ python manage.py runserver
-	    ```
+	```bash
+	$ python manage.py runserver
+	```
 
-3. On this repo, open terminal in ./frontend for the frontend and:
+4. On this repo, open terminal in ./frontend for the frontend and:
 
 	3.1. Install node modules to this repo.
 
-	    ```shell
-	    $ yarn install
-
-	    or
-
-	    $ npm install
-	    ```
+	```bash
+	$ yarn install
+ 	```
+	or
+ 	```bash
+	$ npm install
+	```
 
 	3.2. Run the app on your browser.
 
-	    ```shell
-	    $ yarn start
-
-	    or
-
-	    $ npm start
-	    ```
+	```bash
+	$ yarn start
+	```
+	or
+	```bash
+	$ npm start
+	```
 
 
 ## Resource Structure 
